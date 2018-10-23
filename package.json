@@ -1,0 +1,30 @@
+{
+  "name": "esri-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "megha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^3.6.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "json": "^9.0.6",
+    "jsonic": "^0.3.1",
+    "next": "^7.0.2",
+    "react-lazyload": "^2.3.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
