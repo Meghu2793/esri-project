@@ -9,16 +9,25 @@ Getting Started:
 4.React: any version on or above  16.x
 
 Installation:
+
 $ cd esri_project
+
 $ npm install
-Inside esri_project,
+
+Inside esri_project - 
+
 $ cd client
+
 $ npm install
-navigate back to main path
+
+navigate back to main path - 
+
 $cd ..
 
 Running Locally:
+
 $ npm run dev
+
 open http://localhost:3000/
 
 Documentation:
