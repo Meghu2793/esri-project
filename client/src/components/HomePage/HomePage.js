@@ -30,7 +30,7 @@ class HomePage extends React.Component {
           />
         </div>
         <LazyLoad height={200}>
-          <div className="row col-md-12 placeholder_1">
+          <div className="col-md-12 placeholder_1">
             <div className="col-md-6 img_loader">
               <img src={maps_image} alt="image not found" />
             </div>
@@ -40,7 +40,7 @@ class HomePage extends React.Component {
           </div>
         </LazyLoad>
         <LazyLoad height={200} once >
-          <div className="row col-md-12 placeholder_2">
+          <div className="col-md-12 placeholder_2">
             <div className="col-md-6 headline">
               <p>Twitter Live Streaming ESRI</p>
             </div>
@@ -52,9 +52,9 @@ class HomePage extends React.Component {
 
         {/* <div className="col-md-12"> */}
         <Carousel>
-          <img src={image2} width={600} height={400}/>
-          <img src={image3} width={600} height={400}/>
-          <img src={image1} width={600} height={400}/>
+          <img src={image2} width={600} height={600}/>
+          <img src={image3} width={600} height={600}/>
+          <img src={image1} width={600} height={600}/>
         </Carousel>
       </div>
     );
