@@ -4,21 +4,21 @@
   "private": true,
   "homepage": "https://davetimmins.com/create-react-app-esri-loader/",
   "devDependencies": {
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "react-scripts": "^1.0.17"
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "react-scripts": "^1.1.5"
   },
   "dependencies": {
-    "esri-loader": "^1.6.0",
-    "esri-loader-react": "^2.0.2",
-    "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.2.0",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.2.2",
+    "esri-loader": "^1.7.0",
+    "esri-loader-react": "^2.0.3",
     "nuka-carousel": "^4.4.1",
-    "react-lazyload": "^2.3.0"
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-lazyload": "^2.3.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
